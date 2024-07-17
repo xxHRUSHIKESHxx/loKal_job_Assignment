@@ -3,7 +3,7 @@ import { View, FlatList, ActivityIndicator, Alert, StyleSheet } from 'react-nati
 import { fetchJobs } from '../api/jobsApi';
 import JobCard from '../components/JobCard';
 import ErrorPopup from '../components/ErrorPopup';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 import { useFocusEffect } from '@react-navigation/native';
 
 const JobScreen = ({ navigation }) => {
@@ -89,7 +89,7 @@ const JobScreen = ({ navigation }) => {
         <FlatList
           data={jobs}
           renderItem={renderJob}
-          keyExtractor={item => item.id?.toString()} // Ensure keyExtractor returns a string
+          keyExtractor={item => item.id?.toString()} 
           onEndReached={handleLoadMore}
           onEndReachedThreshold={0.5}
           ListFooterComponent={
