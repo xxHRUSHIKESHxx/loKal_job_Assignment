@@ -2,6 +2,7 @@ To load and install a React Native app from GitHub onto your local machine, foll
 
 ### Prerequisites
 
+**please use earphones for better sound**
 0.**app vedio** : https://drive.google.com/file/d/1ewjMTwKh6QOT9_BVaN-aHr-nD1DKU3QJ/view?usp=drivesdk
 
 1. **Git**: Ensure Git is installed on your machine. You can download it from [git-scm.com](https://git-scm.com/).
